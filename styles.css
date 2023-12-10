@@ -1,4 +1,28 @@
-lea.image-container{
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+.header-image{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    display: inline;
+}
+h1{
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.intro-text{
+    margin: 20px;
+    padding: 10px;
+}
+.image-container{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -9,22 +33,16 @@ lea.image-container{
 .grid-images {
     height: 50vh;
     width: 30vw;
-    background-color: red;
     margin-bottom: 20px;
 }
 img{
     height: 85%;
     width: 100%;
+    border-radius: 30px;
+
 }
 p{
     margin: 0px;
-}
-h1{
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-}
-.intro-text{
-    margin: 20px;
-    padding: 10px;
-    background-color: green;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
 }
