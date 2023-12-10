@@ -1,12 +1,30 @@
-.image-container{
+lea.image-container{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     height: 80vh;
     flex-wrap: wrap;
+    margin: 20px;
 }
-.grid-images{
+.grid-images {
     height: 50vh;
     width: 30vw;
+    background-color: red;
     margin-bottom: 20px;
+}
+img{
+    height: 85%;
+    width: 100%;
+}
+p{
+    margin: 0px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.intro-text{
+    margin: 20px;
+    padding: 10px;
+    background-color: green;
 }
