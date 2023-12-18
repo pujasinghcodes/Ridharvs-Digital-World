@@ -37,10 +37,11 @@ h1{
 }
 img{
     height: 85%;
-    width: 100%;
+    width: 85%;
+    /* object-fit: cover; */
+    /* aspect-ratio: 16/9; */
     border-radius: 30px;
-
-}
+    background: linear-gradient(#e66465, #9198e5);}
 p{
     margin: 0px;
     font-family: 'Indie Flower', cursive;
